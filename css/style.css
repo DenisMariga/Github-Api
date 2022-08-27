@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f4f4f4f4;
+    height: 100vh;
+}
+
+.blue {
+    background-color: blue;
+    color: #ffff;
+}
+
+.grey {
+    background-color: lightgray;
+    color: #000000;
+}
+
+.green {
+    background-color: forestgreen;
+    color: #ffff;
+}
+
+.blueviolet {
+    background-color: blueviolet;
+    color: #ffff;
+}
+
+.danger {
+    background-color: red;
+    color: #ffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.main-container {
+    margin: 3px 70px;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.navbar a {
+    color: #ffff;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
+.error {
+    margin: 6px 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search {
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 20px;
+}
+
+.search h1 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+.search p {
+    font-size: 1.5rem;
+    color: #808080;
+    margin-bottom: 3px;
+}
+
+.search input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.search input:focus {
+    border: 4px solid blue;
+}
+
+#info {
+    display: flex;
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px 1px gray;
+    padding: 20px;
+}
+
+.profile-pic {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.profile-pic img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.profile-pic .view-profile {
+    padding: 7px 10px;
+    border-radius: 10px;
+    margin: 5px 0 10px 0;
+    text-align: center;
+}
+
+.profile-pic .view-profile a {
+    font-size: 1.4rem;
+}
+
+.public-sees {
+    margin-bottom: 30px;
+}
+
+span {
+    padding: 5px;
+    margin-right: 3px;
+    border-radius: 3px;
+}
+
+.collection {
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.collection li {
+    border-bottom: 2px solid gray;
+    width: 100%;
+    padding: 10px;
+}
+
+.collection li:last-child {
+    border-bottom: none;
+}
+
+#repos h1 {
+    margin: 10px 0;
+}
+
+.repo-collection li {
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.repo-collection li a {
+    color: blue;
+    font-size: 1.4rem;
+}
+
+footer {
+    background-color: #333333;
+    color: crimson;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+@media (max-width: 930px) {
+    #info {
+        display: flex;
+        flex-direction: column;
+        background-color: green;
+        border: 2px solid black;
+        box-shadow: 1px 1px 1px 1px gray;
+        padding: 20px;
+    }
+    .profile-pic img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}

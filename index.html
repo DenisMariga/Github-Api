@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GitHub Finder</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <nav class="navbar blue">
+        <a href="#" class="navbar-brand">GitHub Finder</a>
+    </nav>
+    <div class="main-container">
+        <div class="container searchContainer">
+            <!-- <div class="error danger">User not found</div> -->
+            <div class="search card card-body">
+                <h1>Search GitHub Users</h1>
+                <p class="lead">Enter a username to fetch a user profile and repos</p>
+                <input type="text" id="searchUser" placeholder="GitHub Username..." />
+            </div>
+            <br />
+            <div id="profile">
+                <!-- <div id="info">
+                    <div class="profile-pic">
+                        <img src="./photo.jpg" alt="" srcset="" />
+                        <a href="#" class="view-profile blue">View Profile</a>
+                    </div>
+                    <div class="details">
+                        <div class="public-sees">
+                            <span class="public-repos blue">Public Repos: 64</span>
+                            <span class="public-gists grey">Public Gists: 64</span>
+                            <span class="followers green">Followers: 46</span>
+                            <span class="following blueviolet">Following:1</span>
+                        </div>
+                        <ul class="collection">
+                            <li>Company: Denis Tech</li>
+                            <li>Website/blog: denis.com</li>
+                            <li>Location: Kenya</li>
+                            <li>Member since: 2020/09/02</li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+            <div id="repos">
+                <h1>Latest Repos</h1>
+                <!-- <ul class="repo-collection">
+                    <li>
+                        <a href="#">portfolio v1</a>
+                        <div class="repo-desc">
+                            <span class="star blue">Stars:8</span>
+                            <span class="watchers grey">watchers:8</span>
+                            <span class="forks green">Forks:undefined</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">portfolio v2</a>
+                        <div class="repo-desc">
+                            <span class="star blue">Stars:8</span>
+                            <span class="watchers grey">watchers:8</span>
+                            <span class="forks green">Forks:undefined</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">portfolio v3</a>
+                        <div class="repo-desc">
+                            <span class="star blue">Stars:8</span>
+                            <span class="watchers grey">watchers:8</span>
+                            <span class="forks green">Forks:undefined</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">portfolio v4</a>
+                        <div class="repo-desc">
+                            <span class="star blue">Stars:8</span>
+                            <span class="watchers grey">watchers:8</span>
+                            <span class="forks green">Forks:undefined</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">portfolio v5</a>
+                        <div class="repo-desc">
+                            <span class="star blue">Stars:8</span>
+                            <span class="watchers grey">watchers:8</span>
+                            <span class="forks green">Forks:undefined</span>
+                        </div>
+                    </li>
+                </ul> -->
+            </div>
+        </div>
+        <div class="other"></div>
+    </div>
+    <footer class="mt-5 p-3 text-center bg-light">
+        Created by Denis Mariga &copy; 2020
+    </footer>
+    <script src="./js/github.js"></script>
+    <script src="./js/ui.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
